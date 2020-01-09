@@ -1,4 +1,4 @@
-package java.queue;
+package com.queue;
 
 /**
  * @author liqing
