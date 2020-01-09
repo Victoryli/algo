@@ -7,6 +7,7 @@ package com.queue;
  */
 public class LinkListQueue {
 
+
     //  队列的队首和队尾
     private Node head = null;
     private Node tail = null;
