@@ -11,6 +11,7 @@ public class SingleArrayQueueOpt {
     private int length = 0;
     private String[] data;
 
+
     public SingleArrayQueueOpt() {
 
     }
