@@ -31,7 +31,7 @@ public class CircularArrayQueue {
         }
 
         this.data[this.tail] = e;
-        System.out.println("doubleIn: " + this.data[this.tail]);
+        System.out.println("In: " + this.data[this.tail]);
         tail++;
         return true;
     }
@@ -42,7 +42,7 @@ public class CircularArrayQueue {
             return "false";
         }
         String out = this.data[this.head];
-        System.out.println("doubleOut: " + out);
+        System.out.println("Out: " + out);
         head++;
         return out;
     }
