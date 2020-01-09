@@ -12,6 +12,7 @@ public class DoubleArrayQueue {
     private int length = 0;
     private String[] data;
 
+
     public DoubleArrayQueue() {
 
     }
