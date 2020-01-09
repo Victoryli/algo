@@ -5,7 +5,7 @@ package com.queue;
  * @version 1.0
  * @date 2020-01-09 14:10
  */
-public class DoubleArrayQueue {
+public class CircularArrayQueue {
 
     private int head = 0;
     private int tail = 0;
@@ -14,7 +14,7 @@ public class DoubleArrayQueue {
 
 
 
-    public DoubleArrayQueue() {
+    public CircularArrayQueue() {
 
     }
 
