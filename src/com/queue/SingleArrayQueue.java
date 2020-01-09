@@ -12,6 +12,7 @@ public class SingleArrayQueue {
     private int length = 0;
     private String[] data;
 
+
     public SingleArrayQueue() {
 
     }
