@@ -10,7 +10,6 @@ import java.util.Arrays;
 public class MergeSort {
 
 
-
     public static void sort(int[] arr){
         int[] temp = new int[arr.length];
         sort(arr,temp,0,arr.length-1);
@@ -39,12 +38,15 @@ public class MergeSort {
 
         while (i <= mid && j <= right){
             // 如果左边部分的值小于右边部分的，则将左边部分的值放入临时数组 temp 中
-            if (arr[i] < arr[j]){
+            if (arr[i] <= arr[j]){
                 temp[t++] = arr[i++];
+
             }
             // 如果右边部分的值小于左边部分的，则将右边部分的值放入临时数组 temp 中
             if (arr[j] < arr[i]){
+                System.out.println(arr[i] + "," + arr[j]);
                 temp[t++] = arr[j++];
+
             }
         }
 
@@ -66,7 +68,7 @@ public class MergeSort {
 
 
     public static void main(String[] args) {
-        int[] arr = {1,4,2,6,8,3};
+        int[] arr = {7,5,6,4};
         sort(arr);
         System.out.println(Arrays.toString(arr));
 
